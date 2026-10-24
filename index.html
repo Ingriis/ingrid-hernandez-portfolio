@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#0b0d0c">
+    <meta name="description" content="Portafolio de Ingeniería en Sistemas: backend, hardware y proyectos interactivos.">
+    <title>Portafolio — Ingeniería en Sistemas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="wordmark" href="#inicio">
+        <span class="wordmark-mark" aria-hidden="true"></span><span class="wordmark-label" data-es="Portafolio" data-en="Portfolio">Portafolio</span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#inicio" data-es="Inicio" data-en="Home">
+          Inicio
+        </a>
+        <a href="#perfil" data-es="Sobre mí" data-en="About">
+          Sobre mí
+        </a>
+        <a href="#herramientas" data-es="Tecnologías" data-en="Technologies">
+          Tecnologías
+        </a>
+        <a href="#proyectos" data-es="Proyectos" data-en="Projects">
+          Proyectos
+        </a>
+        <a href="#contacto" data-es="Contacto" data-en="Contact">
+          Contacto
+        </a>
+      </nav>
+      <div class="topbar-actions">
+        <a class="nav-download" href="assets/Ingrid_Hernandez_CV.pdf" download="Ingrid_Hernandez_CV.pdf" data-es="CV ↓" data-en="CV ↓">CV ↓</a>
+        <button class="lang-switch" id="lang-switch" aria-label="Switch to English">
+          <span class="lang-current">ES</span><span>/</span><span class="lang-other">EN</span>
+        </button>
+        <button class="theme-switch" id="theme-switch" type="button" aria-label="Cambiar a tema claro" title="Cambiar a tema claro">☼</button>
+        <button class="menu-button" aria-label="Abrir navegación" aria-expanded="false">
+          <i></i><i></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero wrap" id="inicio">
+        <div>
+          <p class="hero-greeting" data-es="Hola, soy" data-en="Hi, I’m">Hola, soy</p>
+          <h1 data-es="Ingrid Hernández" data-en="Ingrid Hernández">Ingrid Hernández</h1>
+          <p class="hero-role" data-es="Desarrolladora Backend" data-en="Backend Developer">Desarrolladora Backend</p>
+          <p class="eyebrow">
+            <b></b><span data-es="INGENIERÍA EN SISTEMAS COMPUTACIONALES · EN FORMACIÓN" data-en="COMPUTER SYSTEMS ENGINEERING · IN PROGRESS">INGENIERÍA EN SISTEMAS COMPUTACIONALES · EN FORMACIÓN</span>
+          </p>
+          <p class="hero-status" data-es="Busco residencia profesional · prácticas" data-en="Seeking a professional internship">Busco residencia profesional · prácticas</p>
+          <p class="intro" data-es="Soy estudiante de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Pachuca y busco una oportunidad de residencia profesional o prácticas. Mi enfoque principal es el <strong>desarrollo backend</strong>, especialmente APIs y manejo de datos. También he explorado sistemas embebidos."
+            data-en="I’m a Computer Systems Engineering student at Instituto Tecnológico de Pachuca, seeking a professional internship. My main focus is <strong>backend development</strong>, especially APIs and data management. I’ve also explored embedded systems.">
+            Soy estudiante de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Pachuca y busco una oportunidad de residencia profesional o prácticas. Mi enfoque principal es el <strong>desarrollo backend</strong>, especialmente APIs y manejo de datos. También he explorado sistemas embebidos.
+          </p>
+          <div class="hero-cta">
+            <a class="button" href="#proyectos" data-es="Ver proyectos <span>↘</span>" data-en="Explore projects <span>↘</span>">
+              Ver proyectos <span>↘</span>
+            </a>
+            <a class="button outline hero-cv" href="assets/Ingrid_Hernandez_CV.pdf" download="Ingrid_Hernandez_CV.pdf" data-es="Descargar CV ↓" data-en="Download résumé ↓">
+              Descargar CV ↓
+            </a>
+            <a class="hero-contact" href="#contacto" data-es="Conversemos ↗" data-en="Say hello ↗">
+              Conversemos ↗
+            </a>
+          </div>
+          <div class="hero-index">
+          <span>01 — 04</span><span data-es="ESTUDIANTE · INGENIERA EN PROCESO" data-en="COMPUTER SYSTEMS ENGINEERING STUDENT">ESTUDIANTE · INGENIERA EN PROCESO</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img class="hero-portrait" src="portrait-ingrid.jpg" alt="">
+          <img class="float-icon float-icon-sandbox" src="assets-code-sandbox.svg" alt="">
+          <img class="float-icon float-icon-editor" src="assets-code-editor.svg" alt="">
+          <img class="float-icon float-icon-code" src="assets-code.svg" alt="">
+          <div class="workbench">
+            <div class="bench-top">
+              <span>SYS / 001</span><span><span data-es="EN LÍNEA" data-en="ONLINE">EN LÍNEA</span> <b></b></span>
+            </div>
+            <div class="screen">
+              <small>
+                <span data-es="RESUMEN DEL PROYECTO" data-en="PROJECT OVERVIEW">RESUMEN DEL PROYECTO</span> <span>⌁ 24.05</span>
+              </small>
+              <strong>
+                <span data-es="SISTEMA" data-en="SYSTEM">SISTEMA</span>
+                <br>
+                <i data-es="en movimiento" data-en="in motion">en movimiento</i>
+              </strong>
+              <div class="signal">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+              <small class="screen-foot">
+                HW ↔ SW <span data-es="CONECTADO / 03" data-en="CONNECTED / 03">CONECTADO / 03</span>
+              </small>
+            </div>
+            <div class="bench-base">
+              ✳ <span data-es="CREAR · APRENDER · REPETIR" data-en="BUILD · LEARN · REPEAT">CREAR · APRENDER · REPETIR</span> ◉
+            </div>
+          </div>
+          <span class="float-tag tag-one">ESP8266 ↗</span><span class="float-tag tag-two">API / DATA ↙</span><span class="spark">✳</span>
+          <div class="hero-socials">
+            <a class="hero-social" href="https://github.com/Ingriis" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a class="hero-social" href="https://www.linkedin.com/in/ingridhg-dba/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </section>
+      <section class="section wrap" id="perfil">
+        <div class="kicker">
+          <b>01 /</b><span data-es="SOBRE MÍ" data-en="ABOUT ME">SOBRE MÍ</span>
+        </div>
+        <h2 class="about-title" data-es="Me interesa entender el sistema completo,<br>desde los datos hasta <em>su funcionamiento.</em>" data-en="I’m interested in understanding the whole system,<br>from its data to <em>how it works.</em>">
+          Me interesa entender el sistema completo,<br>desde los datos hasta <em>su funcionamiento.</em>
+        </h2>
+        <div class="about-layout">
+          <div class="about-story">
+            <p class="about-lead" data-es="En mis proyectos he trabajado con APIs REST y bases de datos, además de explorar la conexión entre software y componentes electrónicos." data-en="In my projects, I’ve worked with REST APIs and databases, and explored how software connects with electronic components.">
+              En mis proyectos he trabajado con APIs REST y bases de datos, además de explorar la conexión entre software y componentes electrónicos.
+            </p>
+            <p data-es="Estas experiencias me han enseñado a considerar cómo se comunican las distintas partes de un sistema y a cuidar tanto la lógica como el manejo de la información." data-en="These experiences have taught me to consider how the parts of a system communicate, while paying attention to both its logic and its data.">
+              Estas experiencias me han enseñado a considerar cómo se comunican las distintas partes de un sistema y a cuidar tanto la lógica como el manejo de la información.
+            </p>
+            <div class="about-timeline">
+              <article class="about-step explored">
+                <span class="about-marker" aria-hidden="true">✓</span>
+                <div><small data-es="HE EXPLORADO" data-en="I’VE EXPLORED">HE EXPLORADO</small><h3 data-es="Distintas áreas de sistemas" data-en="Different areas of computing">Distintas áreas de sistemas</h3><p data-es="APIs · datos · sistemas embebidos" data-en="APIs · data · embedded systems">APIs · datos · sistemas embebidos</p></div>
+              </article>
+              <article class="about-step current">
+                <span class="about-marker" aria-hidden="true">●</span>
+                <div><small data-es="AHORA" data-en="NOW">AHORA</small><h3 data-es="Aprendiendo con cada proyecto" data-en="Learning with every project">Aprendiendo con cada proyecto</h3><p data-es="Diseño, integración y revisión de soluciones." data-en="Designing, integrating, and reviewing solutions.">Diseño, integración y revisión de soluciones.</p></div>
+              </article>
+              <article class="about-step next">
+                <span class="about-marker" aria-hidden="true"></span>
+                <div><small data-es="SIGUIENTE PASO" data-en="NEXT STEP">SIGUIENTE PASO</small><h3 data-es="Colaborar en proyectos reales" data-en="Contribute to real projects">Colaborar en proyectos reales</h3><p data-es="Aportar lo aprendido y crecer junto al equipo." data-en="Apply what I’ve learned and grow with a team.">Aportar lo aprendido y crecer junto al equipo.</p></div>
+              </article>
+            </div>
+          </div>
+          <aside class="about-panel">
+            <div class="about-panel-top"><span data-es="MI FORMA DE TRABAJAR" data-en="HOW I WORK">MI FORMA DE TRABAJAR</span><span class="about-status"><i></i><span data-es="EN PROGRESO" data-en="IN PROGRESS">EN PROGRESO</span></span></div>
+            <h3 data-es="Entender antes de implementar." data-en="Understand before building.">Entender antes de implementar.</h3>
+            <p data-es="Primero identifico cómo fluye la información y qué necesita cada parte; después busco una solución clara y mantenible." data-en="First, I look at how information flows and what each part needs; then I work toward a clear, maintainable solution.">Primero identifico cómo fluye la información y qué necesita cada parte; después busco una solución clara y mantenible.</p>
+            <div class="about-panel-divider"></div>
+            <div class="about-panel-columns">
+              <div><small data-es="HE EXPLORADO" data-en="EXPLORED">HE EXPLORADO</small><span>APIs</span><span data-es="Bases de datos" data-en="Databases">Bases de datos</span><span data-es="Sistemas embebidos" data-en="Embedded systems">Sistemas embebidos</span></div>
+              <div><small data-es="TAMBIÉN" data-en="ALSO">TAMBIÉN</small><span>Python</span><span>FastAPI</span><span>SQL</span></div>
+            </div>
+            <div class="about-panel-foot"><span>INGRID.HERNÁNDEZ</span><span>SYS / 01</span></div>
+          </div>
+        </div>
+      </section>
+      <section class="section wrap" id="herramientas">
+        <div class="kicker">
+          <b>02 /</b><span data-es="TECNOLOGÍAS" data-en="TECHNOLOGIES">TECNOLOGÍAS</span>
+        </div>
+        <div class="tools-intro">
+          <h2 data-es="Tecnologías en mis <em>proyectos.</em>" data-en="Technologies in my <em>projects.</em>">Tecnologías en mis <em>proyectos.</em></h2>
+          <p data-es="Herramientas que he utilizado o explorado en mis proyectos." data-en="Tools I’ve used or explored in my projects.">Herramientas que he utilizado o explorado en mis proyectos.</p>
+        </div>
+        <div class="tool-categories">
+          <div class="tool-category">
+            <h3 data-es="BACKEND Y WEB" data-en="BACKEND & WEB">BACKEND Y WEB</h3>
+            <div class="tool-items">
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/python/3776AB" alt=""><span>Python</span></div>
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt=""><span>JavaScript</span></div>
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/fastapi/009688" alt=""><span>FastAPI</span></div>
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/angular/DD0031" alt=""><span>Angular</span></div>
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/typescript/3178C6" alt=""><span>TypeScript</span></div>
+              <div class="tool-card"><svg class="brand-icon csharp-icon" viewBox="0 0 48 48" role="img" aria-label="C sharp"><text x="24" y="31" text-anchor="middle">C#</text></svg><span>C#</span></div>
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/dotnet/512BD4" alt=""><span>.NET Framework</span></div>
+            </div>
+          </div>
+          <div class="tool-category">
+            <h3 data-es="DATOS Y SERVICIOS" data-en="DATA & SERVICES">DATOS Y SERVICIOS</h3>
+            <div class="tool-items">
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/sqlalchemy/D71F00" alt=""><span>SQLAlchemy</span></div>
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt=""><span>MySQL</span></div>
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/supabase/3FCF8E" alt=""><span>Supabase</span></div>
+            </div>
+          </div>
+          <div class="tool-category">
+            <h3 data-es="PRUEBAS Y NUBE" data-en="TESTING & CLOUD">PRUEBAS Y NUBE</h3>
+            <div class="tool-items">
+              <div class="tool-card"><img src="https://cdn.simpleicons.org/postman/FF6C37" alt=""><span>Postman</span></div>
+              <div class="tool-card"><svg class="brand-icon aws-icon" viewBox="0 0 48 48" role="img" aria-label="AWS"><text x="24" y="25" text-anchor="middle">aws</text><path d="M10 31c8 6 20 7 29 1m0 0-5-1m5 1-2 4"/></svg><span>AWS EC2</span></div>
+            </div>
+          </div>
+          <div class="tool-category">
+            <h3 data-es="HARDWARE E IOT" data-en="HARDWARE & IOT">HARDWARE E IOT</h3>
+            <div class="tool-items">
+              <div class="tool-card"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="11" y="12" width="26" height="24" rx="3"/><path d="M17 7v5m7-5v5m7-5v5M17 36v5m7-5v5m7-5v5M6 18h5m-5 7h5m-5 7h5m26-14h5m-5 7h5m-5 7h5"/><path d="M18 21h12M18 27h12"/></svg><span>ESP8266</span></div>
+              <div class="tool-card"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="11" width="28" height="26" rx="2"/><path d="M16 6v5m8-5v5m8-5v5M16 37v5m8-5v5m8-5v5M5 17h5m-5 7h5m-5 7h5m28-14h5m-5 7h5m-5 7h5"/><text x="24" y="27" text-anchor="middle">595</text></svg><span>74HC595</span></div>
+              <div class="tool-card"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 24h10m12 0h10"/><rect x="18" y="13" width="12" height="22" rx="2"/><path d="m11 19 5 5-5 5m26-10-5 5 5 5"/><circle cx="24" cy="19" r="2"/><path d="M24 22v8"/></svg><span data-es="Optoacoplador" data-en="Optocoupler">Optoacoplador</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects section" id="proyectos">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <div class="kicker">
+                <b>03 /</b><span data-es="PROYECTOS" data-en="PROJECTS">PROYECTOS</span>
+              </div>
+              <h2 data-es="Proyectos que conectan<br><em>ideas y tecnología.</em>" data-en="Projects connecting<br><em>ideas and technology.</em>">
+                Proyectos que conectan
+                <br>
+                <em>ideas y tecnología.</em>
+              </h2>
+            </div>
+            <p data-es="Una selección de proyectos en los que he trabajado: desde APIs y sistemas embebidos hasta desarrollo web interactivo." data-en="A selection of projects I’ve worked on, from APIs and embedded systems to interactive web development.">
+              Una selección de proyectos en los que he trabajado: desde APIs y sistemas embebidos hasta desarrollo web interactivo.
+            </p>
+          </div>
+          <div class="project-tabs" role="group" aria-label="Seleccionar proyecto">
+            <button class="project-tab active" type="button" aria-pressed="true" data-project-select="api">
+              <span>01 · BACKEND</span><b data-es="API vehicular" data-en="Vehicle API">API vehicular</b>
+            </button>
+            <button class="project-tab" type="button" aria-pressed="false" data-project-select="usuarios">
+              <span>02 · FULL STACK</span><b data-es="Gestión de usuarios" data-en="User management">Gestión de usuarios</b>
+            </button>
+            <button class="project-tab" type="button" aria-pressed="false" data-project-select="cine">
+              <span>03 · PROYECTO EN EQUIPO</span><b>FIKA-CINEMA</b>
+            </button>
+            <button class="project-tab" type="button" aria-pressed="false" data-project-select="forklift">
+              <span>04 · EMBEBIDOS</span><b data-es="Control de montacargas" data-en="Forklift control">Control de montacargas</b>
+            </button>
+          </div>
+          <article class="project featured" data-project-card="forklift">
+            <div class="project-art circuit">
+              <label>
+                <span data-es="04 / SISTEMAS EMBEBIDOS" data-en="04 / EMBEDDED SYSTEMS">04 / SISTEMAS EMBEBIDOS</span>
+              </label>
+              <div class="circuit-board">
+                <span class="chip chip-a">ESP
+                <br>
+                <b>8266</b></span><span class="chip chip-b">74HC
+                <br>
+                <b>595</b></span><span class="chip chip-c">OPT
+                <br>
+                <b>ISO</b></span><i class="board-core">CONTROL
+                <br>
+                BUS ↔</i><i class="wire w1"></i><i class="wire w2"></i><i class="wire w3"></i>
+              </div>
+              <small>
+                <span data-es="HARDWARE / CONTROL" data-en="HARDWARE / CONTROL">HARDWARE / CONTROL</span>
+              </small>
+            </div>
+            <div class="project-copy">
+              <div class="meta">
+                <span data-es="SISTEMAS EMBEBIDOS · IOT" data-en="EMBEDDED SYSTEMS · IOT">SISTEMAS EMBEBIDOS · IOT</span><b data-es="PROTOTIPO" data-en="PROTOTYPE">PROTOTIPO</b>
+              </div>
+              <h3 data-es="Control de montacargas" data-en="Forklift control system">
+                Control de montacargas
+              </h3>
+              <p data-es="Prototipo de control con ESP8266, registros 74HC595 y optoacopladores. Un proyecto donde el código cruza del software al mundo físico." data-en="A control prototype using an ESP8266, 74HC595 shift registers, and optocouplers—a project where code crosses from software into the physical world.">
+                Prototipo de control con ESP8266, registros 74HC595 y optoacopladores. Un proyecto donde el código cruza del software al mundo físico.
+              </p>
+              <div class="chips">
+                <span>ESP8266</span><span>74HC595</span><span>Optocouplers</span><span>IoT</span>
+              </div>
+            </div>
+          </article>
+          <div class="project-grid">
+            <article class="project" data-project-card="api">
+              <div class="project-art api">
+                <label>
+                  01 / BACKEND
+                </label>
+                <div class="terminal">
+                  <div class="terminal-bar">
+                    ● ● ● <span>vehicle_api.py</span>
+                  </div>
+                  <code><i>@app.post</i>(<em>"/movement"</em>)
+                  <br>
+                  <b>async def</b> log_movement(data):
+                  <br>
+                  &nbsp;&nbsp;record = Movement(**data)
+                  <br>
+                  &nbsp;&nbsp;db.add(record)
+                  <br>
+                  &nbsp;&nbsp;<i>return</i> {<em>"saved"</em>: True}
+                  <br>
+                  ▍</code>
+                </div>
+                <small>
+                  <span data-es="SOLICITUD → BASE DE DATOS" data-en="REQUEST → DATABASE">SOLICITUD → BASE DE DATOS</span>
+                </small>
+              </div>
+              <div class="project-copy">
+                <div class="meta">
+                  <span>BACKEND · API</span><b>FASTAPI</b>
+                </div>
+                <h3 data-es="API de movimientos vehiculares" data-en="Vehicle movement API">
+                  API de movimientos vehiculares
+                </h3>
+                <p data-es="API para registrar movimientos vehiculares, desarrollada con FastAPI, SQLAlchemy y MySQL." data-en="An API for recording vehicle movements, built with FastAPI, SQLAlchemy, and MySQL.">
+                  API para registrar movimientos vehiculares, desarrollada con FastAPI, SQLAlchemy y MySQL.
+                </p>
+                <div class="chips">
+                  <span>FastAPI</span><span>SQLAlchemy</span><span>MySQL</span>
+                </div>
+                <a class="project-repo-link" href="https://github.com/Ingriis/vehiculo-iot-api" target="_blank" rel="noopener noreferrer" data-es="Ver repositorio ↗" data-en="View repository ↗">Ver repositorio ↗</a>
+              </div>
+            </article>
+            <article class="project" data-project-card="usuarios">
+              <div class="project-art api">
+                <label>02 / FULL STACK · C#</label>
+                <div class="terminal">
+                  <div class="terminal-bar">● ● ● <span>UsuarioController.cs</span></div>
+                  <code><i>[HttpGet]</i>
+                  <br>
+                  <b>public</b> IHttpActionResult GetUsuario(<em>int id</em>)
+                  <br>
+                  &nbsp;&nbsp;<i>return</i> Ok(usuario);
+                  <br>
+                  <i>[HttpPut]</i> UpdateUsuario(...)
+                  <br>
+                  ▍</code>
+                </div>
+                <small>ASP.NET WEB API / MYSQL</small>
+              </div>
+              <div class="project-copy">
+                <div class="meta">
+                  <span data-es="API REST · DESARROLLO FULL STACK" data-en="REST API · FULL STACK DEVELOPMENT">API REST · DESARROLLO FULL STACK</span><b data-es="CRUD" data-en="CRUD">CRUD</b>
+                </div>
+                <h3 data-es="Gestión de usuarios" data-en="User management">Gestión de usuarios</h3>
+                <p data-es="Sistema de gestión de usuarios que integra una API REST en ASP.NET Web API con una interfaz ASP.NET Web Forms. Permite iniciar sesión, consultar y buscar usuarios, y registrar, actualizar o eliminar cuentas. MySQL usa vistas y procedimientos almacenados; la colección de Postman incluye solicitudes para entornos local y AWS." data-en="A user management system that combines an ASP.NET Web API backend with an ASP.NET Web Forms interface. It supports sign-in, user search, and account creation, updates, and deletion. MySQL views and stored procedures handle data access; the Postman collection includes requests for local and AWS configurations.">
+                  Sistema de gestión de usuarios que integra una API REST en ASP.NET Web API con una interfaz ASP.NET Web Forms. Permite iniciar sesión, consultar y buscar usuarios, y registrar, actualizar o eliminar cuentas. MySQL usa vistas y procedimientos almacenados; la colección de Postman incluye solicitudes para entornos local y AWS.
+                </p>
+                <div class="chips"><span>C#</span><span>.NET Framework 4.7.2</span><span>ASP.NET Web API</span><span>Web Forms</span><span>MySQL</span><span>Postman</span><span>AWS EC2</span></div>
+                <details>
+                  <summary data-es="Alcance técnico" data-en="Technical scope">Alcance técnico</summary>
+                  <p data-es="Incluye endpoints para acceso, altas, consultas, filtros, actualización y eliminación de usuarios, conectados a vistas y procedimientos almacenados de MySQL." data-en="Includes endpoints for sign-in, creation, lookup, filtering, updates, and deletion of users, backed by MySQL views and stored procedures.">Incluye endpoints para acceso, altas, consultas, filtros, actualización y eliminación de usuarios, conectados a vistas y procedimientos almacenados de MySQL.</p>
+                </details>
+              </div>
+            </article>
+            <article class="project" data-project-card="cine">
+              <div class="project-art cinema">
+                <label data-es="03 / PROYECTO EN EQUIPO" data-en="03 / TEAM PROJECT">03 / PROYECTO EN EQUIPO</label>
+                <div class="cinema-ticket" aria-hidden="true"><span>🎬</span><b>FIKA<br>CINEMA</b><i>TEAM</i></div>
+                <small>ANGULAR / SUPABASE</small>
+              </div>
+              <div class="project-copy">
+                <div class="meta">
+                  <span data-es="WEB · CINE · TRABAJO EN EQUIPO" data-en="WEB · CINEMA · TEAM PROJECT">WEB · CINE · TRABAJO EN EQUIPO</span><b data-es="COLABORATIVO" data-en="COLLABORATIVE">COLABORATIVO</b>
+                </div>
+                <h3 data-es="Plataforma web de cine" data-en="Cinema web platform">Plataforma web de cine</h3>
+                <p data-es="Aplicación web desarrollada en equipo para consultar cartelera y funciones, elegir cine y asientos, y gestionar boletos. Incluye cuentas de usuario, historial de compras y herramientas administrativas." data-en="A team-built cinema web app for browsing movies and showtimes, selecting a cinema and seats, and managing bookings. It includes user accounts, purchase history, and admin tools.">
+                  Aplicación web desarrollada en equipo para consultar cartelera y funciones, elegir cine y asientos, y gestionar boletos. Incluye cuentas de usuario, historial de compras y herramientas administrativas.
+                </p>
+                <div class="chips"><span>Angular</span><span>TypeScript</span><span>Supabase</span><span>TMDB API</span></div>
+                <a class="project-repo-link" href="https://github.com/RingdLugo/FIKA-CINEMA" target="_blank" rel="noopener noreferrer" data-es="Ver repositorio ↗" data-en="View repository ↗">Ver repositorio ↗</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contacto">
+        <div class="wrap contact-layout">
+          <div class="contact-copy">
+            <div class="kicker">
+              <b>04 /</b><span data-es="CONTACTO" data-en="CONTACT">CONTACTO</span>
+            </div>
+            <h2 data-es="Hablemos." data-en="Let’s talk.">Hablemos.</h2>
+            <p data-es="¿Tienes una oportunidad, una idea o alguna pregunta sobre mis proyectos? Escríbeme, te responderé por correo." data-en="Have an opportunity, an idea, or a question about my projects? Send me a message and I’ll reply by email.">
+              ¿Tienes una oportunidad, una idea o alguna pregunta sobre mis proyectos? Escríbeme, te responderé por correo.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:ingrid.hgmz@gmail.com"><span aria-hidden="true">✉</span><b>ingrid.hgmz@gmail.com</b></a>
+              <a href="https://github.com/Ingriis" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">⌘</span><b>GitHub</b></a>
+              <a href="https://www.linkedin.com/in/ingridhg-dba/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">in</span><b>LinkedIn</b></a>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form" action="https://formsubmit.co/ingrid.hgmz@gmail.com" method="POST">
+            <label class="form-honeypot" aria-hidden="true">Leave this field empty<input name="_honey" tabindex="-1" autocomplete="off"></label>
+            <div class="contact-form-row">
+              <label><span data-es="Nombre" data-en="Name">Nombre</span><input name="name" autocomplete="name" required></label>
+              <label><span data-es="Correo" data-en="Email">Correo</span><input name="email" type="email" autocomplete="email" required></label>
+            </div>
+            <label><span data-es="Asunto" data-en="Subject">Asunto</span><input name="subject" required></label>
+            <label><span data-es="Mensaje" data-en="Message">Mensaje</span><textarea name="message" rows="5" required></textarea></label>
+            <div class="contact-form-submit">
+              <button class="button" type="submit" data-es="Enviar mensaje　→" data-en="Send message　→">Enviar mensaje　→</button>
+              <small id="form-status" role="status" aria-live="polite" data-es="El mensaje se enviará desde esta página." data-en="Your message will be sent from this page.">El mensaje se enviará desde esta página.</small>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap footer">
+      <a class="wordmark" href="#inicio">
+        <span class="wordmark-mark" aria-hidden="true"></span><span class="wordmark-label" data-es="Portafolio" data-en="Portfolio">Portafolio</span>
+      </a>
+      <span data-es="Ingrid Hernández · Desarrolladora Backend" data-en="Ingrid Hernández · Backend Developer">Ingrid Hernández · Desarrolladora Backend</span>
+      <a href="#inicio" data-es="INICIO ↑" data-en="TOP ↑">
+        INICIO ↑
+      </a>
+    </footer>
+  </body>
+</html>
