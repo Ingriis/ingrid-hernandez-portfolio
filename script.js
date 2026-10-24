@@ -59,12 +59,19 @@
       });
       const result = await response.json();
       const succeeded = result.success === true || result.success === 'true';
+      const needsActivation = /activat|confirm/i.test(String(result.message || ''));
+
+      if (needsActivation) {
+        formStatus.textContent = lang === 'es'
+          ? 'Revisa tu correo y confirma la activación de FormSubmit. Después podrás recibir mensajes desde aquí.'
+          : 'Check your email and confirm FormSubmit activation. After that, you can receive messages here.';
+        return;
+      }
 
       if (!response.ok || !succeeded) {
         throw new Error(result.message || 'Submission failed');
       }
 
-      const needsActivation = /activat|confirm/i.test(String(result.message || ''));
       if (needsActivation) {
         formStatus.textContent = lang === 'es'
           ? 'Confirma FormSubmit desde el correo de activación que te llegará y después vuelve a enviar el mensaje.'
