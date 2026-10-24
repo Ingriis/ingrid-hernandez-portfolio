@@ -19,6 +19,3 @@ HTML, CSS y JavaScript. No requiere dependencias ni proceso de compilación.
 - **GitHub:** [github.com/Ingriis](https://github.com/Ingriis)
 - **LinkedIn:** [linkedin.com/in/ingridhg-dba](https://www.linkedin.com/in/ingridhg-dba/)
 
-## Formulario de contacto
-
-El formulario usa [FormSubmit](https://formsubmit.co/) para enviar los mensajes sin abrir la aplicación de correo del visitante. En el primer envío, Ingrid debe confirmar su dirección desde el correo de activación. El envío debe probarse desde GitHub Pages o un servidor local; abrir `index.html` directamente no permite comprobarlo.
