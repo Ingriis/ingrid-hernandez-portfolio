@@ -2,6 +2,8 @@
 
 Portafolio profesional bilingüe de **Ingrid Hernández**, estudiante de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Pachuca, con enfoque en desarrollo backend. Presenta proyectos, tecnologías y medios de contacto en un sitio web de una sola página.
 
+**Sitio publicado:** [Ver portafolio](https://ingriis.github.io/ingrid-hernandez-portfolio/)
+
 ## Proyectos destacados
 
 - **API de movimientos vehiculares:** API desarrollada con FastAPI, SQLAlchemy y MySQL.
@@ -18,4 +20,3 @@ HTML, CSS y JavaScript. No requiere dependencias ni proceso de compilación.
 - **Correo:** [ingrid.hgmz@gmail.com](mailto:ingrid.hgmz@gmail.com)
 - **GitHub:** [github.com/Ingriis](https://github.com/Ingriis)
 - **LinkedIn:** [linkedin.com/in/ingridhg-dba](https://www.linkedin.com/in/ingridhg-dba/)
-
