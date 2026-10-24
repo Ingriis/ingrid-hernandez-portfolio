@@ -3526,3 +3526,41 @@ body {
     font-size: clamp(32px, 9vw, 38px);
   }
 }
+
+/* Footer social links */
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: inherit;
+  font-size: 10px;
+  transition: color .2s ease;
+}
+
+.footer-socials a:hover {
+  color: var(--acid);
+}
+
+.footer-socials svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+@media (max-width: 580px) {
+  .footer-socials {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer > span {
+    text-align: center;
+  }
+}
